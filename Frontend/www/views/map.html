@@ -1,0 +1,3 @@
+<ng-map style="width:100%; height:100%;position: absolute;" center="[36.114004, -115.175548]">
+    <marker ng-repeat="m in markers" position="{{m.address}}" title="{{m.name}}" id="{{m.id}}" on-click="showDetail($event);"></marker>
+</ng-map>
